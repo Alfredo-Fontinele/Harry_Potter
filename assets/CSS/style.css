@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(20,30,40);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+}
+
+.header_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes logo {
+    0% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.header_left img {
+    animation: logo 5s infinite;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.header_left h1 {
+    color: #FFF;
+}
+
+.header_right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_right li {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.header_right a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header_right a:hover {
+    border-bottom: 5px solid springgreen;
+    padding-bottom: 35px;
+}
+
+.header_right button {
+    background-color: slateblue;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+.header_right button:hover {
+    background-color: springgreen;
+}
+
+.menu_mobile {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu_mobile div {
+    background-color: springgreen;
+    border-radius: 10px;
+    height: 5px;
+    width: 45px;
+    margin: 4px 0;
+}
+
+main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+
+.main1 {
+    background-image: url("https://www.teahub.io/photos/full/190-1909219_background-pc-harry-potter.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main2 {
+    background-image: url("https://wallpaperaccess.com/full/22924.jpg");    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    padding: 3px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+footer span {
+    color: springgreen;
+}
+
+@media only screen and (max-width: 1070px) {
+
+    .menu_mobile {
+        display: flex;
+    }
+
+    .header_right {
+        background-color: rgba(20,30,40, 0.5);
+        position: absolute;
+        top: 100px;
+        left: -100%;
+        height: calc(100vh - 100px);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 200ms;
+    }
+
+    .header_right.active {
+        left: 0;
+    }
+
+    .header_right ul {
+        flex-direction: column;
+    }
+
+    .header_right li {
+        margin: 30px 0;
+        font-size: 23px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        padding: 0 20px;
+    }
+
+    .header_left img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header_left h1 {
+        font-size: 20px;
+    }
+
+    .header_right li {
+        font-size: 18px;
+    }
+
+    .menu_mobile div {
+        width: 40px;
+    }
+
+}
