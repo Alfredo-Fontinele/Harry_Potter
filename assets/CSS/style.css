@@ -74,6 +74,7 @@ header {
 }
 
 .header_right a:hover {
+    color: springgreen;
     border-bottom: 5px solid springgreen;
     padding-bottom: 35px;
 }
@@ -185,6 +186,12 @@ footer span {
     .header_right li {
         margin: 15px 0;
         font-size: 23px;
+    }
+
+    .header_right a:hover {
+        color: springgreen;
+        border-bottom: none;
+        padding-bottom: none;
     }
 
 }
