@@ -184,6 +184,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     height: 700px;
+    transition: all 1s;
 }
 
 .section_third {
@@ -192,6 +193,25 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     height: 700px;
+    transition: all 1s;
+}
+
+.section_forth {
+    background-image: url("../imgs/section_third.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    transition: all 1s;
+}
+
+.section_fifth {
+    background-image: url("../imgs/section_second.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    transition: all 1s;
 }
 
 footer {

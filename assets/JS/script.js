@@ -31,13 +31,26 @@ button.addEventListener("click", () => {
 // Funcionalidade do Botão Mudar Tema de Fundo
 
 function mudarTema() {
+
     let main = document.querySelector("main");
+    let section2 = document.getElementById("section_second");
+    let section3 = document.getElementById("section_third");
+
     if (main.classList.contains("main1")) {
         main.classList.remove("main1");
         main.classList.add("main2");
-    } else {
+        section2.classList.remove("section_second");
+        section2.classList.add("section_forth");
+        section3.classList.remove("section_third");
+        section3.classList.add("section_fifth");
+
+    } else if (main.classList.contains("main2")) {
         main.classList.remove("main2");
         main.classList.add("main1");
+        section2.classList.remove("section_forth");
+        section2.classList.add("section_second");
+        section3.classList.remove("section_fifth");
+        section3.classList.add("section_third");
     }
 }
 
