@@ -11,11 +11,11 @@ function ativarAudio() {
         audio.autoplay = true;
         audio.loop = true;
         audio.play();
-        btn_music.innerHTML = "Desativar Musica";
+        btn_music.innerHTML = "Desativar Música";
     } else {
         count = 0;
         audio.pause();
-        btn_music.innerHTML = "Ativar Musica";
+        btn_music.innerHTML = "Ativar Música";
     }
 }
 
