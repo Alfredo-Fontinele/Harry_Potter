@@ -51,7 +51,20 @@ header {
     margin-right: 20px;
 }
 
+@keyframes h1 {
+    0% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
 .header_left h1 {
+    animation: h1 5s infinite;
     color: #FFF;
 }
 
@@ -269,6 +282,18 @@ main {
     transition: all 1s;
 }
 
+@keyframes footer {
+    0% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
 footer {
     height: 300px;
     width: 100%;
@@ -280,6 +305,7 @@ footer {
 }
 
 footer p {
+    animation: footer 5s infinite;
     padding: 3px;
     letter-spacing: 2px;
     font-weight: bold;
