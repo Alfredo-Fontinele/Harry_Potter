@@ -122,9 +122,7 @@ main {
 }
 
 .main1 {
-    background: #4e54c8;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4e54c8;
     background-image: url("../imgs/main1.jpg");
     background-size: cover;
     background-position: center;
@@ -133,9 +131,7 @@ main {
 }
 
 .main2 {
-    background: #4e54c8;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4e54c8;
     background-image: url("../imgs/main2.jpg");
     background-size: cover;
     background-position: center;
@@ -185,9 +181,7 @@ main {
 }
 
 .section_second {
-    background: #4e54c8;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4e54c8;
     background-image: url("../imgs/section_second.jpg");
     background-size: cover;
     background-position: center;
@@ -252,9 +246,7 @@ main {
 }
 
 .section_forth {
-    background: #4e54c8;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4e54c8;
     background-image: url("../imgs/section_third.jpg");
     background-size: cover;
     background-position: center;
@@ -266,9 +258,7 @@ main {
 }
 
 .section_fifth {
-    background: #4e54c8;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4e54c8;
     background-image: url("../imgs/section_second.jpg");
     background-size: cover;
     background-position: center;
