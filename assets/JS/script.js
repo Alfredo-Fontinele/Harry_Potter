@@ -12,10 +12,12 @@ function ativarAudio() {
         audio.loop = true;
         audio.play();
         btn_music.innerHTML = "Desativar Música";
+        btn_music.style.backgroundColor = "slateblue";
     } else {
         count = 0;
         audio.pause();
         btn_music.innerHTML = "Ativar Música";
+        btn_music.style.backgroundColor = "rgb(0, 125, 255)";
     }
 }
 
@@ -32,6 +34,7 @@ button.addEventListener("click", () => {
 
 function mudarTema() {
 
+    let button = document.getElementById("mudarTema");
     let main = document.querySelector("main");
     let section2 = document.getElementById("section_second");
     let section3 = document.getElementById("section_third");
@@ -43,6 +46,7 @@ function mudarTema() {
         section2.classList.add("section_forth");
         section3.classList.remove("section_third");
         section3.classList.add("section_fifth");
+        button.style.backgroundColor = "slateblue";
 
     } else if (main.classList.contains("main2")) {
         main.classList.remove("main2");
@@ -51,6 +55,7 @@ function mudarTema() {
         section2.classList.add("section_second");
         section3.classList.remove("section_fifth");
         section3.classList.add("section_third");
+        button.style.backgroundColor = "rgb(0, 125, 255)";
     }
 }
 

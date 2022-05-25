@@ -95,7 +95,7 @@ header {
 }
 
 .header_right button {
-    background-color: slateblue;
+    background-color: rgb(0, 125, 255);
     border-radius: 10px;
     font-weight: bold;
     color: white;
@@ -190,7 +190,7 @@ main {
 
 .section_initial .section_text h1, p {
     text-align: center;
-    color: rgb(245, 245, 245);
+    color: rgb(255,255,255);
 }
 
 .section_initial .section_text h1 {
