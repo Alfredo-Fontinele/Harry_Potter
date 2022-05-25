@@ -280,7 +280,7 @@ main {
 footer {
     height: 300px;
     width: 100%;
-    background-color: rgb(10, 30, 40);
+    background-color: rgb(20, 30, 40);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -362,47 +362,33 @@ footer span {
         width: 40px;
     }
 
-    .section_initial .section_text h1, p {
+    .section_second .section_text h1, p {
         text-align: center;
     }
     
-    .section_initial .section_text h1 {
-        font-size: 40px;
-    }
-    
-    .section_initial p {
+    .section_second p {
         font-size: 18px;
     }
 
 }
 
-@media only screen and (max-width: 660px) {
-
-    .section_second .section_text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .section_second .section_text li {
-        font-size: 13px;
-    }
-
-}
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 
     .section_initial .section_text h1 {
-        text-align: center;
         font-size: 30px;
-        margin-bottom: 25px;
     }
 
     .section_initial .section_text p {
-        text-align: justify;
+        font-size: 20px;
+    }
+
+    .section_second .section_text h1 {
+        text-align: left;
+        font-size: 20px;
+        margin-bottom: 25px;
     }
     
-    .section_initial p {
+    .section_second .section_text p {
         font-size: 14px;
     }  
 
