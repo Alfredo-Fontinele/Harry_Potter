@@ -24,6 +24,7 @@ header {
     padding: 0 40px;
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 
 .header_left {
@@ -161,7 +162,20 @@ main {
     padding: 0 30px;
 }
 
+@keyframes section_initial {
+    0% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+
 .section_initial .section_text {
+    animation: section_initial 4s infinite;
     padding: 20px;
     display: flex;
     flex-direction: column;
