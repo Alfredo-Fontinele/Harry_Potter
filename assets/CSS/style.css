@@ -193,18 +193,6 @@ main {
     font-weight: bold;
 }
 
-.section_second {
-    background-color: rgb(20, 30, 40);
-    background-image: url("../imgs/section_second.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: auto;
-    min-height: 1000px;
-    padding: 100px 40px;
-    transition: all 1s;
-}
-
 .section_second .section_text,
 .section_third .section_text,
 .section_forth .section_text,
@@ -247,8 +235,11 @@ main {
     line-height: 30px;
 }
 
-.section_third {
-    background-image: url("../imgs/section_third.jpg");
+.section_second,
+.section_third,
+.section_forth,
+.section_fifth {
+    background-color: rgb(20, 30, 40);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -256,30 +247,22 @@ main {
     min-height: 1000px;
     padding: 100px 40px;
     transition: all 1s;
+}
+
+.section_second {
+    background-image: url("../imgs/section_second.jpg");
+}
+
+.section_third {
+    background-image: url("../imgs/section_third.jpg");
 }
 
 .section_forth {
-    background-color: rgb(20, 30, 40);
     background-image: url("../imgs/section_third.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: auto;
-    min-height: 1000px;
-    padding: 100px 40px;
-    transition: all 1s;
 }
 
 .section_fifth {
-    background-color: rgb(20, 30, 40);
     background-image: url("../imgs/section_second.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: auto;
-    min-height: 1000px;
-    padding: 100px 40px;
-    transition: all 1s;
 }
 
 @keyframes footer {
@@ -381,7 +364,6 @@ footer span {
 
     .section_initial .section_text h1, p {
         text-align: center;
-        color: rgb(245, 245, 245);
     }
     
     .section_initial .section_text h1 {
@@ -410,14 +392,14 @@ footer span {
 
 @media only screen and (max-width: 400px) {
 
-    .section_initial .section_text h1, p {
-        text-align: center;
-        color: rgb(245, 245, 245);
-    }
-    
     .section_initial .section_text h1 {
+        text-align: center;
         font-size: 30px;
         margin-bottom: 25px;
+    }
+
+    .section_initial .section_text p {
+        text-align: justify;
     }
     
     .section_initial p {
