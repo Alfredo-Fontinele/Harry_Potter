@@ -142,6 +142,7 @@ main {
     background-image: url("../imgs/main2.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     transition: all 1s;
 }
