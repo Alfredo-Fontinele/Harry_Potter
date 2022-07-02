@@ -1,4 +1,4 @@
-# Loja Harry Potter | HTML, CSS, JS
+# Harry Potter | HTML, CSS, JS
 
 ## ***1º) Visualização Desktop***
 
