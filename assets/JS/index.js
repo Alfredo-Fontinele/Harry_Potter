@@ -1,4 +1,4 @@
-window.navigator.vibrate(500);
+navigator.vibrate(1000);
 // Funcionalidade do Botão do Áudio
 
 let count = 0;
